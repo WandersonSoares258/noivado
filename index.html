@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Noivado - Wanderson & Sara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wanderson & Sara</h1>
+            <p class="subtitle">Temos uma notícia especial para compartilhar!</p>
+            <p class="date">10 de Outubro - Sexta-feira</p>
+            <p>Convidamos você para a celebração do nosso noivado</p>
+        </header>
+        
+        <div class="decoration">💍</div>
+        
+        <section class="section">
+            <h2>Confirmação de Presença</h2>
+            <p>Para melhor organizarmos nosso evento, pedimos que confirme sua presença até 5 de outubro.</p>
+            
+            <form class="confirmation-form" id="confirmationForm">
+                <div class="form-group">
+                    <label for="name">Seu nome completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="guests">Lista de convidados (nomes completos):</label>
+                    <textarea id="guests" name="guests" placeholder="Exemplo: Maria Silva, João Santos, Pedro Oliveira..." required></textarea>
+                    <small>Digite os nomes completos de todos que virão com você, separados por vírgula</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensagem para os noivos (opcional):</label>
+                    <textarea id="message" name="message" placeholder="Deixe uma mensagem especial para Wanderson e Sara..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Enviar confirmação para:</label>
+                    <div class="whatsapp-buttons">
+                        <button type="button" class="whatsapp-btn wanderson" onclick="sendConfirmation('wanderson')">
+                            💬 Wanderson
+                        </button>
+                        <button type="button" class="whatsapp-btn sara" onclick="sendConfirmation('sara')">
+                            💬 Sara
+                        </button>
+                    </div>
+                </div>
+            </form>
+            
+            <div class="confirmation-message" id="confirmationMessage">
+                <p>Obrigado por confirmar sua presença! Estamos ansiosos para compartilhar este momento especial com você.</p>
+                <p id="whatsappMessage"></p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Detalhes do Evento</h2>
+            <div class="details">
+                <div class="detail-item">
+                    <h3>Data</h3>
+                    <p>10 de Outubro</p>
+                    <p>Sexta-feira</p>
+                    <p>19:00 horas</p>
+                </div>
+                
+                <div class="detail-item">
+                    <h3>Local</h3>
+                    <p>Espaço Emanoel</p>
+                    <div class="address">
+                        <p>R. RP-20, Qd. 03 - Lt. 07</p>
+                        <p>Parque Industrial, Sen. Canedo - GO</p>
+                        <p>75264-182</p>
+                        <a href="https://maps.app.goo.gl/VPHy17ToAmowMVZS9" 
+                           target="_blank" class="location-btn">
+                            📍 Ver no Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Com carinho, Wanderson & Sara</p>
+            <div class="contacts">
+                <div class="contact-item">
+                    <span class="contact-whatsapp">WhatsApp</span>
+                    <span>Wanderson (62) 99404-6855</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-whatsapp">WhatsApp</span>
+                    <span>Sara (62) 99305-2622</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
