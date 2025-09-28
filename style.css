@@ -169,12 +169,12 @@ button:hover {
 }
 
 .whatsapp-btn.wanderson {
-    background-color: #25D366;
+    background-color: #8d6e63;
     color: white;
 }
 
 .whatsapp-btn.sara {
-    background-color: #128C7E;
+    background-color: #8d6e63;
     color: white;
 }
 
@@ -260,29 +260,9 @@ footer {
     text-align: center;
     padding: 20px;
     color: #8d6e63;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     border-top: 1px solid #d7ccc8;
     margin-top: 20px;
-}
-
-/* Contatos no rodapé */
-.contacts {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 15px;
-    flex-wrap: wrap;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.contact-whatsapp {
-    color: #25D366;
-    font-size: 1.1rem;
 }
 
 /* Decoração */
