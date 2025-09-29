@@ -42,7 +42,7 @@ header::before {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     color: #5d4037;
     letter-spacing: 1px;
@@ -72,7 +72,7 @@ h1 {
 
 .verse p {
     font-size: 1.1rem;
-    max-width: 650px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
