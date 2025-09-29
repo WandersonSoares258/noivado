@@ -76,7 +76,7 @@ h1 {
 .verse p {
     font-size: 1.1rem;
     max-width: 400px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .subtitle {
