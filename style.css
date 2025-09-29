@@ -68,29 +68,25 @@ h1 {
 .verse {
     margin: 50px 0;
     text-align: center;
+    font-style: italic;
     color: #8d6e63;
     line-height: 1.5;
-    font-size: 1.2rem;
 }
 
 .verse p {
-    font-family: 'Dancing Script', cursive;
     font-size: 1.1rem;
     max-width: 400px;
     margin: 0 auto;
 }
 
 .subtitle {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: #8d6e63;
-    font-weight: 600;
 }
 
 .date {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #a1887f;
     margin: 30px 0;
     padding: 10px 5px;
